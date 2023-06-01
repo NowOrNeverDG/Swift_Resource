@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3584C758276BA6EE00234AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C757276BA6EE00234AF3 /* AppDelegate.swift */; };
+		3584C75A276BA6EE00234AF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C759276BA6EE00234AF3 /* SceneDelegate.swift */; };
+		3584C75C276BA6EE00234AF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C75B276BA6EE00234AF3 /* ViewController.swift */; };
+		3584C75F276BA6EE00234AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584C75D276BA6EE00234AF3 /* Main.storyboard */; };
+		3584C761276BA6F000234AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3584C760276BA6F000234AF3 /* Assets.xcassets */; };
+		3584C764276BA6F000234AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584C762276BA6F000234AF3 /* LaunchScreen.storyboard */; };
+		3584C76F276BA6F000234AF3 /* WalmartMovieDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C76E276BA6F000234AF3 /* WalmartMovieDBTests.swift */; };
+		3584C779276BA6F000234AF3 /* WalmartMovieDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C778276BA6F000234AF3 /* WalmartMovieDBUITests.swift */; };
+		3584C77B276BA6F000234AF3 /* WalmartMovieDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C77A276BA6F000234AF3 /* WalmartMovieDBUITestsLaunchTests.swift */; };
+		3584C78D276BA78F00234AF3 /* URLPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C78C276BA78F00234AF3 /* URLPath.swift */; };
+		3584C78F276BAA8400234AF3 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C78E276BAA8400234AF3 /* APIHandler.swift */; };
+		3584C795276BAD1400234AF3 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C794276BAD1400234AF3 /* Movies.swift */; };
+		3584C797276BAFAE00234AF3 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C796276BAFAE00234AF3 /* MovieTableViewCell.swift */; };
+		3584C799276BB2C900234AF3 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C798276BB2C900234AF3 /* MoviesViewModel.swift */; };
+		3584C79C276BBB3000234AF3 /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C79B276BBB3000234AF3 /* Genres.swift */; };
+		3584C7A0276BC15F00234AF3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C79F276BC15F00234AF3 /* DetailViewController.swift */; };
+		3584C7A4276BE28C00234AF3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584C7A3276BE28B00234AF3 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3584C76B276BA6F000234AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3584C74C276BA6EE00234AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3584C753276BA6EE00234AF3;
+			remoteInfo = WalmartMovieDB;
+		};
+		3584C775276BA6F000234AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3584C74C276BA6EE00234AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3584C753276BA6EE00234AF3;
+			remoteInfo = WalmartMovieDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3584C754276BA6EE00234AF3 /* WalmartMovieDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartMovieDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3584C757276BA6EE00234AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3584C759276BA6EE00234AF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3584C75B276BA6EE00234AF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3584C75E276BA6EE00234AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3584C760276BA6F000234AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3584C763276BA6F000234AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3584C765276BA6F000234AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3584C76A276BA6F000234AF3 /* WalmartMovieDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartMovieDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3584C76E276BA6F000234AF3 /* WalmartMovieDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartMovieDBTests.swift; sourceTree = "<group>"; };
+		3584C774276BA6F000234AF3 /* WalmartMovieDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartMovieDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3584C778276BA6F000234AF3 /* WalmartMovieDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartMovieDBUITests.swift; sourceTree = "<group>"; };
+		3584C77A276BA6F000234AF3 /* WalmartMovieDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartMovieDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3584C78C276BA78F00234AF3 /* URLPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPath.swift; sourceTree = "<group>"; };
+		3584C78E276BAA8400234AF3 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		3584C794276BAD1400234AF3 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		3584C796276BAFAE00234AF3 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		3584C798276BB2C900234AF3 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		3584C79B276BBB3000234AF3 /* Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
+		3584C79F276BC15F00234AF3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3584C7A3276BE28B00234AF3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3584C751276BA6EE00234AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3584C767276BA6F000234AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3584C771276BA6F000234AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3584C74B276BA6EE00234AF3 = {
+			isa = PBXGroup;
+			children = (
+				3584C756276BA6EE00234AF3 /* WalmartMovieDB */,
+				3584C76D276BA6F000234AF3 /* WalmartMovieDBTests */,
+				3584C777276BA6F000234AF3 /* WalmartMovieDBUITests */,
+				3584C755276BA6EE00234AF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3584C755276BA6EE00234AF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3584C754276BA6EE00234AF3 /* WalmartMovieDB.app */,
+				3584C76A276BA6F000234AF3 /* WalmartMovieDBTests.xctest */,
+				3584C774276BA6F000234AF3 /* WalmartMovieDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3584C756276BA6EE00234AF3 /* WalmartMovieDB */ = {
+			isa = PBXGroup;
+			children = (
+				3584C757276BA6EE00234AF3 /* AppDelegate.swift */,
+				3584C759276BA6EE00234AF3 /* SceneDelegate.swift */,
+				3584C79E276BC13D00234AF3 /* View */,
+				3584C79D276BC12600234AF3 /* ViewModel */,
+				3584C79A276BBAE200234AF3 /* Model */,
+				3584C792276BAB4400234AF3 /* Constants */,
+				3584C793276BAB6B00234AF3 /* NetWorking */,
+				3584C75D276BA6EE00234AF3 /* Main.storyboard */,
+				3584C760276BA6F000234AF3 /* Assets.xcassets */,
+				3584C762276BA6F000234AF3 /* LaunchScreen.storyboard */,
+				3584C765276BA6F000234AF3 /* Info.plist */,
+			);
+			path = WalmartMovieDB;
+			sourceTree = "<group>";
+		};
+		3584C76D276BA6F000234AF3 /* WalmartMovieDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				3584C76E276BA6F000234AF3 /* WalmartMovieDBTests.swift */,
+			);
+			path = WalmartMovieDBTests;
+			sourceTree = "<group>";
+		};
+		3584C777276BA6F000234AF3 /* WalmartMovieDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3584C778276BA6F000234AF3 /* WalmartMovieDBUITests.swift */,
+				3584C77A276BA6F000234AF3 /* WalmartMovieDBUITestsLaunchTests.swift */,
+			);
+			path = WalmartMovieDBUITests;
+			sourceTree = "<group>";
+		};
+		3584C792276BAB4400234AF3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3584C78C276BA78F00234AF3 /* URLPath.swift */,
+				3584C7A3276BE28B00234AF3 /* Extension.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3584C793276BAB6B00234AF3 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				3584C78E276BAA8400234AF3 /* APIHandler.swift */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		3584C79A276BBAE200234AF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3584C794276BAD1400234AF3 /* Movies.swift */,
+				3584C79B276BBB3000234AF3 /* Genres.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3584C79D276BC12600234AF3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3584C798276BB2C900234AF3 /* MoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3584C79E276BC13D00234AF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3584C75B276BA6EE00234AF3 /* ViewController.swift */,
+				3584C79F276BC15F00234AF3 /* DetailViewController.swift */,
+				3584C796276BAFAE00234AF3 /* MovieTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3584C753276BA6EE00234AF3 /* WalmartMovieDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3584C77E276BA6F000234AF3 /* Build configuration list for PBXNativeTarget "WalmartMovieDB" */;
+			buildPhases = (
+				3584C750276BA6EE00234AF3 /* Sources */,
+				3584C751276BA6EE00234AF3 /* Frameworks */,
+				3584C752276BA6EE00234AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalmartMovieDB;
+			productName = WalmartMovieDB;
+			productReference = 3584C754276BA6EE00234AF3 /* WalmartMovieDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3584C769276BA6F000234AF3 /* WalmartMovieDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3584C781276BA6F000234AF3 /* Build configuration list for PBXNativeTarget "WalmartMovieDBTests" */;
+			buildPhases = (
+				3584C766276BA6F000234AF3 /* Sources */,
+				3584C767276BA6F000234AF3 /* Frameworks */,
+				3584C768276BA6F000234AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3584C76C276BA6F000234AF3 /* PBXTargetDependency */,
+			);
+			name = WalmartMovieDBTests;
+			productName = WalmartMovieDBTests;
+			productReference = 3584C76A276BA6F000234AF3 /* WalmartMovieDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3584C773276BA6F000234AF3 /* WalmartMovieDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3584C784276BA6F000234AF3 /* Build configuration list for PBXNativeTarget "WalmartMovieDBUITests" */;
+			buildPhases = (
+				3584C770276BA6F000234AF3 /* Sources */,
+				3584C771276BA6F000234AF3 /* Frameworks */,
+				3584C772276BA6F000234AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3584C776276BA6F000234AF3 /* PBXTargetDependency */,
+			);
+			name = WalmartMovieDBUITests;
+			productName = WalmartMovieDBUITests;
+			productReference = 3584C774276BA6F000234AF3 /* WalmartMovieDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3584C74C276BA6EE00234AF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3584C753276BA6EE00234AF3 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					3584C769276BA6F000234AF3 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 3584C753276BA6EE00234AF3;
+					};
+					3584C773276BA6F000234AF3 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 3584C753276BA6EE00234AF3;
+					};
+				};
+			};
+			buildConfigurationList = 3584C74F276BA6EE00234AF3 /* Build configuration list for PBXProject "WalmartMovieDB" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3584C74B276BA6EE00234AF3;
+			productRefGroup = 3584C755276BA6EE00234AF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3584C753276BA6EE00234AF3 /* WalmartMovieDB */,
+				3584C769276BA6F000234AF3 /* WalmartMovieDBTests */,
+				3584C773276BA6F000234AF3 /* WalmartMovieDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3584C752276BA6EE00234AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3584C764276BA6F000234AF3 /* LaunchScreen.storyboard in Resources */,
+				3584C761276BA6F000234AF3 /* Assets.xcassets in Resources */,
+				3584C75F276BA6EE00234AF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3584C768276BA6F000234AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3584C772276BA6F000234AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3584C750276BA6EE00234AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3584C79C276BBB3000234AF3 /* Genres.swift in Sources */,
+				3584C78D276BA78F00234AF3 /* URLPath.swift in Sources */,
+				3584C75C276BA6EE00234AF3 /* ViewController.swift in Sources */,
+				3584C797276BAFAE00234AF3 /* MovieTableViewCell.swift in Sources */,
+				3584C7A4276BE28C00234AF3 /* Extension.swift in Sources */,
+				3584C795276BAD1400234AF3 /* Movies.swift in Sources */,
+				3584C78F276BAA8400234AF3 /* APIHandler.swift in Sources */,
+				3584C758276BA6EE00234AF3 /* AppDelegate.swift in Sources */,
+				3584C7A0276BC15F00234AF3 /* DetailViewController.swift in Sources */,
+				3584C75A276BA6EE00234AF3 /* SceneDelegate.swift in Sources */,
+				3584C799276BB2C900234AF3 /* MoviesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3584C766276BA6F000234AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3584C76F276BA6F000234AF3 /* WalmartMovieDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3584C770276BA6F000234AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3584C77B276BA6F000234AF3 /* WalmartMovieDBUITestsLaunchTests.swift in Sources */,
+				3584C779276BA6F000234AF3 /* WalmartMovieDBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3584C76C276BA6F000234AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3584C753276BA6EE00234AF3 /* WalmartMovieDB */;
+			targetProxy = 3584C76B276BA6F000234AF3 /* PBXContainerItemProxy */;
+		};
+		3584C776276BA6F000234AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3584C753276BA6EE00234AF3 /* WalmartMovieDB */;
+			targetProxy = 3584C775276BA6F000234AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3584C75D276BA6EE00234AF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3584C75E276BA6EE00234AF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3584C762276BA6F000234AF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3584C763276BA6F000234AF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3584C77C276BA6F000234AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3584C77D276BA6F000234AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3584C77F276BA6F000234AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalmartMovieDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeDingInPerson.WalmartMovieDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3584C780276BA6F000234AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalmartMovieDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeDingInPerson.WalmartMovieDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3584C782276BA6F000234AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeDingInPerson.WalmartMovieDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalmartMovieDB.app/WalmartMovieDB";
+			};
+			name = Debug;
+		};
+		3584C783276BA6F000234AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeDingInPerson.WalmartMovieDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalmartMovieDB.app/WalmartMovieDB";
+			};
+			name = Release;
+		};
+		3584C785276BA6F000234AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeDingInPerson.WalmartMovieDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalmartMovieDB;
+			};
+			name = Debug;
+		};
+		3584C786276BA6F000234AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeDingInPerson.WalmartMovieDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalmartMovieDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3584C74F276BA6EE00234AF3 /* Build configuration list for PBXProject "WalmartMovieDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3584C77C276BA6F000234AF3 /* Debug */,
+				3584C77D276BA6F000234AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3584C77E276BA6F000234AF3 /* Build configuration list for PBXNativeTarget "WalmartMovieDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3584C77F276BA6F000234AF3 /* Debug */,
+				3584C780276BA6F000234AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3584C781276BA6F000234AF3 /* Build configuration list for PBXNativeTarget "WalmartMovieDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3584C782276BA6F000234AF3 /* Debug */,
+				3584C783276BA6F000234AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3584C784276BA6F000234AF3 /* Build configuration list for PBXNativeTarget "WalmartMovieDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3584C785276BA6F000234AF3 /* Debug */,
+				3584C786276BA6F000234AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3584C74C276BA6EE00234AF3 /* Project object */;
+}
